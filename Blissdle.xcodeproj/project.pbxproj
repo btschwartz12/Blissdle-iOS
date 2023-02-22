@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00950AB9282F6AE3005CF263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00950AB8282F6AE3005CF263 /* Assets.xcassets */; };
+		00CC23E82827F6B4008ADBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC23E72827F6B4008ADBB0 /* AppDelegate.swift */; };
+		00CC23EA2827F6B4008ADBB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC23E92827F6B4008ADBB0 /* SceneDelegate.swift */; };
+		00CC23EC2827F6B4008ADBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC23EB2827F6B4008ADBB0 /* ViewController.swift */; };
+		00CC23EF2827F6B4008ADBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CC23ED2827F6B4008ADBB0 /* Main.storyboard */; };
+		00CC23F22827F6B4008ADBB0 /* Blissdle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00CC23F02827F6B4008ADBB0 /* Blissdle.xcdatamodeld */; };
+		00CC23F72827F6B8008ADBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CC23F52827F6B8008ADBB0 /* LaunchScreen.storyboard */; };
+		00CC24022827F6B8008ADBB0 /* BlissdleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC24012827F6B8008ADBB0 /* BlissdleTests.swift */; };
+		00CC240C2827F6B8008ADBB0 /* BlissdleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC240B2827F6B8008ADBB0 /* BlissdleUITests.swift */; };
+		00CC240E2827F6B8008ADBB0 /* BlissdleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC240D2827F6B8008ADBB0 /* BlissdleUITestsLaunchTests.swift */; };
+		00CC241B2828BEB5008ADBB0 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CC241A2828BEB5008ADBB0 /* Game.storyboard */; };
+		00CC241E2828C0F1008ADBB0 /* Game_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC241D2828C0F1008ADBB0 /* Game_ViewController.swift */; };
+		00CC24202828C126008ADBB0 /* End_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC241F2828C126008ADBB0 /* End_ViewController.swift */; };
+		00CC24262828C870008ADBB0 /* Blissdle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC24252828C870008ADBB0 /* Blissdle.swift */; };
+		00CC24282828C895008ADBB0 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00CC24272828C895008ADBB0 /* words.txt */; };
+		00CC242A2828C93C008ADBB0 /* my.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00CC24292828C93C008ADBB0 /* my.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00CC23FE2827F6B8008ADBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00CC23DC2827F6B4008ADBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CC23E32827F6B4008ADBB0;
+			remoteInfo = Blissdle;
+		};
+		00CC24082827F6B8008ADBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00CC23DC2827F6B4008ADBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CC23E32827F6B4008ADBB0;
+			remoteInfo = Blissdle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00950AB8282F6AE3005CF263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		00AF09E9282FD95800521262 /* Blissdle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Blissdle.h; path = ../../blissdle/Blissdle.h; sourceTree = "<group>"; };
+		00CC23E42827F6B4008ADBB0 /* Blissdle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blissdle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CC23E72827F6B4008ADBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00CC23E92827F6B4008ADBB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00CC23EB2827F6B4008ADBB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00CC23EE2827F6B4008ADBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00CC23F12827F6B4008ADBB0 /* Blissdle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Blissdle.xcdatamodel; sourceTree = "<group>"; };
+		00CC23F62827F6B8008ADBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00CC23F82827F6B8008ADBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CC23FD2827F6B8008ADBB0 /* BlissdleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlissdleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CC24012827F6B8008ADBB0 /* BlissdleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlissdleTests.swift; sourceTree = "<group>"; };
+		00CC24072827F6B8008ADBB0 /* BlissdleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlissdleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CC240B2827F6B8008ADBB0 /* BlissdleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlissdleUITests.swift; sourceTree = "<group>"; };
+		00CC240D2827F6B8008ADBB0 /* BlissdleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlissdleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00CC241A2828BEB5008ADBB0 /* Game.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
+		00CC241D2828C0F1008ADBB0 /* Game_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_ViewController.swift; sourceTree = "<group>"; };
+		00CC241F2828C126008ADBB0 /* End_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = End_ViewController.swift; sourceTree = "<group>"; };
+		00CC24252828C870008ADBB0 /* Blissdle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blissdle.swift; sourceTree = "<group>"; };
+		00CC24272828C895008ADBB0 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		00CC24292828C93C008ADBB0 /* my.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = my.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00CC23E12827F6B4008ADBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC23FA2827F6B8008ADBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC24042827F6B8008ADBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CC23DB2827F6B4008ADBB0 = {
+			isa = PBXGroup;
+			children = (
+				00AF09E9282FD95800521262 /* Blissdle.h */,
+				00CC241C2828BF23008ADBB0 /* Game */,
+				00CC23E62827F6B4008ADBB0 /* Blissdle */,
+				00CC24002827F6B8008ADBB0 /* BlissdleTests */,
+				00CC240A2827F6B8008ADBB0 /* BlissdleUITests */,
+				00CC23E52827F6B4008ADBB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00CC23E52827F6B4008ADBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00CC23E42827F6B4008ADBB0 /* Blissdle.app */,
+				00CC23FD2827F6B8008ADBB0 /* BlissdleTests.xctest */,
+				00CC24072827F6B8008ADBB0 /* BlissdleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00CC23E62827F6B4008ADBB0 /* Blissdle */ = {
+			isa = PBXGroup;
+			children = (
+				00CC23E72827F6B4008ADBB0 /* AppDelegate.swift */,
+				00CC23E92827F6B4008ADBB0 /* SceneDelegate.swift */,
+				00CC23EB2827F6B4008ADBB0 /* ViewController.swift */,
+				00CC23ED2827F6B4008ADBB0 /* Main.storyboard */,
+				00950AB8282F6AE3005CF263 /* Assets.xcassets */,
+				00CC23F52827F6B8008ADBB0 /* LaunchScreen.storyboard */,
+				00CC23F82827F6B8008ADBB0 /* Info.plist */,
+				00CC23F02827F6B4008ADBB0 /* Blissdle.xcdatamodeld */,
+			);
+			path = Blissdle;
+			sourceTree = "<group>";
+		};
+		00CC24002827F6B8008ADBB0 /* BlissdleTests */ = {
+			isa = PBXGroup;
+			children = (
+				00CC24012827F6B8008ADBB0 /* BlissdleTests.swift */,
+			);
+			path = BlissdleTests;
+			sourceTree = "<group>";
+		};
+		00CC240A2827F6B8008ADBB0 /* BlissdleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00CC240B2827F6B8008ADBB0 /* BlissdleUITests.swift */,
+				00CC240D2827F6B8008ADBB0 /* BlissdleUITestsLaunchTests.swift */,
+			);
+			path = BlissdleUITests;
+			sourceTree = "<group>";
+		};
+		00CC241C2828BF23008ADBB0 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				00CC241A2828BEB5008ADBB0 /* Game.storyboard */,
+				00CC241D2828C0F1008ADBB0 /* Game_ViewController.swift */,
+				00CC241F2828C126008ADBB0 /* End_ViewController.swift */,
+				00CC24252828C870008ADBB0 /* Blissdle.swift */,
+				00CC24272828C895008ADBB0 /* words.txt */,
+				00CC24292828C93C008ADBB0 /* my.txt */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00CC23E32827F6B4008ADBB0 /* Blissdle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CC24112827F6B8008ADBB0 /* Build configuration list for PBXNativeTarget "Blissdle" */;
+			buildPhases = (
+				00CC23E02827F6B4008ADBB0 /* Sources */,
+				00CC23E12827F6B4008ADBB0 /* Frameworks */,
+				00CC23E22827F6B4008ADBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blissdle;
+			productName = Blissdle;
+			productReference = 00CC23E42827F6B4008ADBB0 /* Blissdle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00CC23FC2827F6B8008ADBB0 /* BlissdleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CC24142827F6B8008ADBB0 /* Build configuration list for PBXNativeTarget "BlissdleTests" */;
+			buildPhases = (
+				00CC23F92827F6B8008ADBB0 /* Sources */,
+				00CC23FA2827F6B8008ADBB0 /* Frameworks */,
+				00CC23FB2827F6B8008ADBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00CC23FF2827F6B8008ADBB0 /* PBXTargetDependency */,
+			);
+			name = BlissdleTests;
+			productName = BlissdleTests;
+			productReference = 00CC23FD2827F6B8008ADBB0 /* BlissdleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00CC24062827F6B8008ADBB0 /* BlissdleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CC24172827F6B8008ADBB0 /* Build configuration list for PBXNativeTarget "BlissdleUITests" */;
+			buildPhases = (
+				00CC24032827F6B8008ADBB0 /* Sources */,
+				00CC24042827F6B8008ADBB0 /* Frameworks */,
+				00CC24052827F6B8008ADBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00CC24092827F6B8008ADBB0 /* PBXTargetDependency */,
+			);
+			name = BlissdleUITests;
+			productName = BlissdleUITests;
+			productReference = 00CC24072827F6B8008ADBB0 /* BlissdleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00CC23DC2827F6B4008ADBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					00CC23E32827F6B4008ADBB0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+					00CC23FC2827F6B8008ADBB0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 00CC23E32827F6B4008ADBB0;
+					};
+					00CC24062827F6B8008ADBB0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 00CC23E32827F6B4008ADBB0;
+					};
+				};
+			};
+			buildConfigurationList = 00CC23DF2827F6B4008ADBB0 /* Build configuration list for PBXProject "Blissdle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00CC23DB2827F6B4008ADBB0;
+			productRefGroup = 00CC23E52827F6B4008ADBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00CC23E32827F6B4008ADBB0 /* Blissdle */,
+				00CC23FC2827F6B8008ADBB0 /* BlissdleTests */,
+				00CC24062827F6B8008ADBB0 /* BlissdleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00CC23E22827F6B4008ADBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CC242A2828C93C008ADBB0 /* my.txt in Resources */,
+				00CC241B2828BEB5008ADBB0 /* Game.storyboard in Resources */,
+				00CC23F72827F6B8008ADBB0 /* LaunchScreen.storyboard in Resources */,
+				00CC24282828C895008ADBB0 /* words.txt in Resources */,
+				00950AB9282F6AE3005CF263 /* Assets.xcassets in Resources */,
+				00CC23EF2827F6B4008ADBB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC23FB2827F6B8008ADBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC24052827F6B8008ADBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CC23E02827F6B4008ADBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CC24202828C126008ADBB0 /* End_ViewController.swift in Sources */,
+				00CC23EC2827F6B4008ADBB0 /* ViewController.swift in Sources */,
+				00CC23E82827F6B4008ADBB0 /* AppDelegate.swift in Sources */,
+				00CC23EA2827F6B4008ADBB0 /* SceneDelegate.swift in Sources */,
+				00CC23F22827F6B4008ADBB0 /* Blissdle.xcdatamodeld in Sources */,
+				00CC24262828C870008ADBB0 /* Blissdle.swift in Sources */,
+				00CC241E2828C0F1008ADBB0 /* Game_ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC23F92827F6B8008ADBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CC24022827F6B8008ADBB0 /* BlissdleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC24032827F6B8008ADBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CC240E2827F6B8008ADBB0 /* BlissdleUITestsLaunchTests.swift in Sources */,
+				00CC240C2827F6B8008ADBB0 /* BlissdleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00CC23FF2827F6B8008ADBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00CC23E32827F6B4008ADBB0 /* Blissdle */;
+			targetProxy = 00CC23FE2827F6B8008ADBB0 /* PBXContainerItemProxy */;
+		};
+		00CC24092827F6B8008ADBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00CC23E32827F6B4008ADBB0 /* Blissdle */;
+			targetProxy = 00CC24082827F6B8008ADBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00CC23ED2827F6B4008ADBB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CC23EE2827F6B4008ADBB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00CC23F52827F6B8008ADBB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CC23F62827F6B8008ADBB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00CC240F2827F6B8008ADBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00CC24102827F6B8008ADBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00CC24122827F6B8008ADBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ9RF3J6S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blissdle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goodcodeman.Blissdle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00CC24132827F6B8008ADBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ9RF3J6S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blissdle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goodcodeman.Blissdle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00CC24152827F6B8008ADBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ9RF3J6S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goodcodeman.BlissdleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blissdle.app/Blissdle";
+			};
+			name = Debug;
+		};
+		00CC24162827F6B8008ADBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ9RF3J6S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goodcodeman.BlissdleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blissdle.app/Blissdle";
+			};
+			name = Release;
+		};
+		00CC24182827F6B8008ADBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ9RF3J6S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goodcodeman.BlissdleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blissdle;
+			};
+			name = Debug;
+		};
+		00CC24192827F6B8008ADBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AZ9RF3J6S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goodcodeman.BlissdleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blissdle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CC23DF2827F6B4008ADBB0 /* Build configuration list for PBXProject "Blissdle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CC240F2827F6B8008ADBB0 /* Debug */,
+				00CC24102827F6B8008ADBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CC24112827F6B8008ADBB0 /* Build configuration list for PBXNativeTarget "Blissdle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CC24122827F6B8008ADBB0 /* Debug */,
+				00CC24132827F6B8008ADBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CC24142827F6B8008ADBB0 /* Build configuration list for PBXNativeTarget "BlissdleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CC24152827F6B8008ADBB0 /* Debug */,
+				00CC24162827F6B8008ADBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CC24172827F6B8008ADBB0 /* Build configuration list for PBXNativeTarget "BlissdleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CC24182827F6B8008ADBB0 /* Debug */,
+				00CC24192827F6B8008ADBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00CC23F02827F6B4008ADBB0 /* Blissdle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00CC23F12827F6B4008ADBB0 /* Blissdle.xcdatamodel */,
+			);
+			currentVersion = 00CC23F12827F6B4008ADBB0 /* Blissdle.xcdatamodel */;
+			path = Blissdle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00CC23DC2827F6B4008ADBB0 /* Project object */;
+}
